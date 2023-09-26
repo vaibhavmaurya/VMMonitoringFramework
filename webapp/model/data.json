@@ -1,0 +1,100 @@
+{
+
+    "all":[
+        {
+            "name":"GAIN Initiatives",
+            "projects": [
+                {
+                    "name":"GAIN US",
+                    "pipelines":[
+                        {
+                            "name":"Data Validation",
+                            "orchestration_type":"Step Function",
+                            "unit":"Total Executions",
+                            "footer":"",
+                            "no_of_executions":"23"
+                        },
+                        {
+                            "name":"Data Transformation",
+                            "orchestration_type":"Step Function",
+                            "unit":"Total Executions",
+                            "footer":"",
+                            "no_of_executions":"23"
+                        }
+                    ]
+                },
+                {
+                    "name":"GAIN Vaccine",
+                    "pipelines":[
+                        {
+                            "name":"Data Ingestion",
+                            "orchestration_type":"Airflow",
+                            "unit":"Total Executions",
+                            "footer":"",
+                            "no_of_executions":"3"
+                        },
+                        {
+                            "name":"Data Validation",
+                            "orchestration_type":"Step Function",
+                            "unit":"Total Executions",
+                            "footer":"",
+                            "no_of_executions":"5"
+                        },
+                        {
+                            "name":"Data Transformation",
+                            "orchestration_type":"Step Function",
+                            "unit":"Total Executions",
+                            "footer":"",
+                            "no_of_executions":"3"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name":"HPV Initiatives",
+            "projects": [
+                {
+                    "name":"L3NXT Project",
+                    "pipelines":[
+                        {
+                            "name":"Data Validation",
+                            "orchestration_type":"Airflow",
+                            "unit":"Total Executions",
+                            "footer":"",
+                            "no_of_executions":"2"
+                        },
+                        {
+                            "name":"Data Transformation",
+                            "orchestration_type":"Airflow",
+                            "unit":"Total Executions",
+                            "footer":"",
+                            "no_of_executions":"1"
+                        }
+                    ]
+                },
+                {
+                    "name":"PROMOfit Project",
+                    "pipelines":[
+                        {
+                            "name":"Data Validation",
+                            "orchestration_type":"Airflow",
+                            "unit":"Total Executions",
+                            "footer":"",
+                            "no_of_executions":"2"
+                        },
+                        {
+                            "name":"Data Transformation",
+                            "orchestration_type":"Airflow",
+                            "unit":"Total Executions",
+                            "footer":"",
+                            "no_of_executions":"1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+
+}

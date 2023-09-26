@@ -1,0 +1,107 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+    controllerName="com.example.monitoring.controller.Main"
+	xmlns="sap.uxap"
+	xmlns:m="sap.m"
+	xmlns:core="sap.ui.core"
+	height="100%"
+    core:require="{
+		formatter: 'com/example/monitoring/model/formatter'
+	}">
+	<ObjectPageLayout id="ObjectPageLayout" upperCaseAnchorBar="false">
+		<headerTitle>
+			<ObjectPageHeader objectTitle="{i18n>application}">
+			</ObjectPageHeader>
+		</headerTitle>
+
+		<headerContent>
+			<m:ObjectAttribute title="" text="This example explains the rules for the rendering of sections"/>
+		</headerContent>
+
+		<sections>
+			<ObjectPageSection titleUppercase="false" title="Section 1">
+				<subSections>
+					<ObjectPageSubSection title="Subsection 1.1" titleUppercase="false">
+						<blocks>
+							<m:FlexBox alignItems="Center" justifyContent="Center" fitContainer="true">
+								<m:GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" press="press">
+									<m:TileContent unit="Unit" footer="Footer Text">
+										<m:NumericContent value="1762" icon="sap-icon://line-charts" withMargin="false" />
+									</m:TileContent>
+								</m:GenericTile>
+
+								<m:GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" press="press">
+									<m:TileContent unit="Unit" footer="Footer Text">
+										<m:NumericContent value="12" withMargin="false" />
+									</m:TileContent>
+								</m:GenericTile>
+							</m:FlexBox>
+						</blocks>
+					</ObjectPageSubSection>
+					<ObjectPageSubSection title="Subsection 1.2" titleUppercase="false">
+						<blocks>
+							<m:FlexBox alignItems="Center" justifyContent="Center" fitContainer="true">
+								<m:GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" press="press">
+									<m:TileContent unit="Unit" footer="Footer Text">
+										<m:NumericContent value="1762" icon="sap-icon://line-charts" withMargin="false" />
+									</m:TileContent>
+								</m:GenericTile>
+
+								<m:GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" press="press">
+									<m:TileContent unit="Unit" footer="Footer Text">
+										<m:NumericContent value="12" withMargin="false" />
+									</m:TileContent>
+								</m:GenericTile>
+							</m:FlexBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection titleUppercase="false" title="Section 2">
+			</ObjectPageSection>
+
+			<ObjectPageSection titleUppercase="false" title="Section 3">
+				<subSections>
+					<ObjectPageSubSection titleUppercase="false">
+						<blocks>
+							<m:FlexBox alignItems="Center" justifyContent="Center" fitContainer="true">
+								<m:GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" press="press">
+									<m:TileContent unit="Unit" footer="Footer Text">
+										<m:NumericContent value="1762" icon="sap-icon://line-charts" withMargin="false" />
+									</m:TileContent>
+								</m:GenericTile>
+
+								<m:GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses" press="press">
+									<m:TileContent unit="Unit" footer="Footer Text">
+										<m:NumericContent value="12" withMargin="false" />
+									</m:TileContent>
+								</m:GenericTile>
+							</m:FlexBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection>
+				<subSections>
+					<ObjectPageSubSection titleUppercase="false">
+						<blocks>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection titleUppercase="false" title="Section 5">
+				<subSections>
+					<ObjectPageSubSection titleUppercase="false">
+						<blocks>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+
+		</sections>
+
+	</ObjectPageLayout>
+</mvc:View>
